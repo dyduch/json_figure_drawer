@@ -20,8 +20,6 @@ def main():
     parser.add_argument('-o', '--output',
                         help='Path to the output file.')
     parsed_args = parser.parse_args()
-    print(parsed_args.input)
-    print(parsed_args.output)
 
     file = open(parsed_args.input)
     data = json.load(file)
