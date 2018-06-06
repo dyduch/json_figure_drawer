@@ -1,5 +1,4 @@
 import json
-from PIL import Image
 from picture import Picture
 from painter import Painter
 import argparse
@@ -34,11 +33,11 @@ def main():
 
     image = painter.paint()
     if parsed_args.output is None:
-        Image._show(image)
+        image.show(image)
     else:
         if not parsed_args.output.endswith('.png'):
             parsed_args.output += '.png'
-        Image._show(image)
+        image.show(image)
         image.save(parsed_args.output)
 
 
