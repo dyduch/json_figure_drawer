@@ -1,5 +1,9 @@
 
 class Figure:
+
+    """
+    This method takes a string and returns an Object from it (without a color!)
+    """
     @staticmethod
     def from_string(string):
         pass

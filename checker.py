@@ -1,6 +1,7 @@
 import sys
 import re
 
+
 class Checker:
 
     @staticmethod

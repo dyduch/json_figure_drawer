@@ -8,6 +8,10 @@ class Painter:
     def __init__(self, picture):
         self.picture = picture
 
+    """
+    Returns and Image object after drawing figures onto it. (It does not draw it, if figure has color=None)
+    """
+
     def paint(self):
         bg_color = Parser.parse_color(self.picture.screen['bg_color'], self.picture.palette)
         fg_color = Parser.parse_color(self.picture.screen['fg_color'], self.picture.palette)

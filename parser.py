@@ -3,6 +3,9 @@ from figures import *
 
 class Parser:
 
+    """
+    Return new figure object using from_string method defined for every Figure class
+    """
     @staticmethod
     def parse_figure(figure):
             if figure['type'] == 'point':
@@ -16,6 +19,9 @@ class Parser:
             elif figure['type'] == 'circle':
                 return Circle.from_string(figure)
 
+    """
+    Return color value (in hex) from hex/rgb/words
+    """
     @staticmethod
     def parse_color(color, palette):
         res = None
