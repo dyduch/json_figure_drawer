@@ -9,7 +9,7 @@ Plik może zawierać:
     wielokąty (podana lista punktów)
     prostokąty (współrzędne środka, wysokość, szerokość) - równolegle do osi układu współrzędnych
     kwadraty (środek i długość boku)
-    koĹa (środek i promień)
+    koła (środek i promień)
 
 Każda figura może mieć określony kolor w postaci słownej (z zadanej palety, np. red), trójki liczb dziesiętnych (np. (255, 0, 0) lub notacji HTML (#ff0000).
 
